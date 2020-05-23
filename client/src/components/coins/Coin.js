@@ -3,6 +3,8 @@ import {NavLink} from "react-router-dom";
 import styles from "./styles/Coin.module.css";
 import {connect} from "react-redux";
 import {deleteFromCart} from "../../actions/cart";
+import delIcon from "../../images/del.png";
+import editIcon from "../../images/Editing-Edit-icon.png";
 
 class Coin extends React.Component {
 
@@ -10,8 +12,8 @@ class Coin extends React.Component {
         const {id} = this.props;
         return (
             <div className={styles.button_delete}>
-                <NavLink  to={`/coins/edit/${id}`}>Edit</NavLink>
-                <NavLink  to={`/coins/delete/${id}`}>Delete</NavLink>
+                <NavLink  to={`/coins/edit/${id}`}><img src={editIcon} alt=""/></NavLink>
+                <NavLink  to={`/coins/delete/${id}`}><img src={delIcon} alt=""/></NavLink>
             </div>
         );
     }

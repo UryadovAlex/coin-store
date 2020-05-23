@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./styles/Pgination.module.css";
+import style from "./styles/Pagination.module.css";
 
 const Pagination = ({coinsPerPage, totalCoins, paginate}) => {
     const pageNumbers = [];

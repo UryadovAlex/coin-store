@@ -16,9 +16,9 @@ import CoinList from "./coins/CoinList";
 import CartList from "./coins/CartList";
 import CoinEdit from "./coins/CoinEdit";
 import CoinDelete from "./coins/CoinDelete";
-import CoinSearch from "./coins/CoinSearch";
 import CoinListSearch from "./coins/CoinListSearch";
 import CoinFilter from "./coins/CoinFilter";
+import "../styles.css";
 
 class App extends React.Component {
     render() {

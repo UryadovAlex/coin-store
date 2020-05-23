@@ -19,6 +19,7 @@ class CoinSearch extends React.Component {
                 <div className={styles.input_button}>
                     <input type="text" value={this.state.search} onChange={this.onInputChange}/>
                     <button onClick={this.search}>Search</button>
+
                     {+this.props.isAdmin ? <Link to="/coins/new">Add coin</Link> : ''}
                 </div>
                 <Link className={styles.filter_link} to="/coins/filter">Advanced filter ^</Link>

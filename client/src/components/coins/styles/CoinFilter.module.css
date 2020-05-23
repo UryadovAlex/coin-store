@@ -7,61 +7,87 @@
     margin-right: 40px;
 }
 
-.filter_field label {
+.filter_field {
+    display: flex;
+}
+
+.filter_select label {
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
-.filter_field select {
-    width: 374px;
-    height: 48px;
-    font-size: 1.2em;
-    border: 1px solid black;
+.column label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.filter_select select {
+    display: block;
+    width: 100%;
+    padding: .2rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .filter_field input {
-    width: 155px;
-    height: 48px;
-    font-size: 1.2em;
-    border: 1px solid black;
+    padding: .2rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
+.field_item {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .filter_field span {
     margin: 0 15px;
 }
 
-.buttons {
-    margin-top: 59px;
-    /*margin-left: 65px;*/
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.buttons button{
+.buttons button {
     text-align: center;
     border: 1px solid #833AE0;
     padding: .375rem .75rem;
     font-size: 1rem;
-    height: 48px;
+    height: 35px;
     width: 120px;
     background: #833AE0;
     line-height: 1.5;
     color: white;
-    /*margin-left: 35px;*/
+    margin-left: 35px;
     border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 
-.buttons button:hover{
+.buttons button:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
 .buttons {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
+    margin-top: 45px;
 }
 

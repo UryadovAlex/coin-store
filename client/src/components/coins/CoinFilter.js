@@ -41,33 +41,44 @@ class CoinFilter extends React.Component {
                 <CoinSearch/>
                 <div className={styles.wrapper}>
                     <div className={styles.column}>
-                        <div className={styles.filter_field}>
+                        <div className={styles.filter_select}>
                             <label htmlFor="">Issuing Country</label>
                             {flag && this.renderSelect('country')}
                         </div>
-                        <div className={styles.filter_field}>
+                        <div className={styles.filter_select}>
                             <label htmlFor="">Metal</label>
                             {flag && this.renderSelect('metal')}
                         </div>
-                        <div className={styles.filter_field}>
+                        <div className={styles.filter_select}>
                             <label htmlFor="">Quality of coin</label>
                             {flag && this.renderSelect('quality')}
                         </div>
                     </div>
                     <div className={styles.column}>
+                        <label>Price</label>
                         <div className={styles.filter_field}>
-                            <label>Price</label>
-                            <span>from </span><input name="price1" type="number" onChange={this.onInputChange}
-                                                     value={this.state.price1}/>
-                            <span> to </span><input name="price2" type="number" onChange={this.onInputChange}
-                                                    value={this.state.price2}/>
+                            <div className={styles.field_item}>
+                                <span>from </span><input name="price1" type="number" onChange={this.onInputChange}
+                                                         value={this.state.price1}/>
+                            </div>
+                            <div className={styles.field_item}>
+                                <span> to </span><input name="price2" type="number" onChange={this.onInputChange}
+                                                        value={this.state.price2}/>
+                            </div>
+
                         </div>
+                        <label>Year of issue</label>
                         <div className={styles.filter_field}>
-                            <label>Year of issue</label>
-                            <span>from </span><input name="year1" type="number" onChange={this.onInputChange}
-                                                     value={this.state.year1}/>
-                            <span> to </span><input name="year2" type="number" onChange={this.onInputChange}
-                                                    value={this.state.year2}/>
+
+                            <div className={styles.field_item}>
+                                <span>from </span><input name="year1" type="number" onChange={this.onInputChange}
+                                                         value={this.state.year1}/>
+                            </div>
+                            <div className={styles.field_item}>
+                                <span> to </span><input name="year2" type="number" onChange={this.onInputChange}
+                                                        value={this.state.year2}/>
+                            </div>
+
                         </div>
                         <div className={styles.buttons}>
                             <button onClick={this.onSubmit}>Apply filter</button>

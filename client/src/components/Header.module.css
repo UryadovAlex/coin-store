@@ -1,5 +1,6 @@
 .wrapper {
     display: flex;
+    padding: 0 80px;
     justify-content: space-between;
     align-items: center;
     background: #833AE0;
@@ -9,7 +10,7 @@
 }
 
 .wrapper .logo {
-    margin-left: 50px;
+
     color: white;
     font-weight: bold;
 }
@@ -23,7 +24,6 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;
 }
 
 .menu_item {

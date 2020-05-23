@@ -13,8 +13,8 @@ class UserDelete extends React.Component {
         const { id } = this.props.match.params;
         return (
             <>
-                <button onClick={() => this.props.deleteUser(id)}>Delete</button>
                 <button onClick={() => this.props.history.goBack()}>Cancel</button>
+                <button onClick={() => this.props.deleteUser(id)}>Delete</button>
             </>
         );
     }

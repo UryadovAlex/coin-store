@@ -11,18 +11,26 @@
 }
 
 .search_bar input {
-    width: 374px;
-    height: 48px;
-    font-size: 1.5em;
-    border: 1px solid black;
+    display: block;
+    width: 30%;
+    padding: .2rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .search_bar button {
     text-align: center;
     border: none;
-    padding: .375rem .75rem;
+    padding: .3rem .75rem;
     font-size: 1rem;
-    height: 48px;
+
     width: 120px;
     background: #833AE0;
     line-height: 1.5;
@@ -32,16 +40,20 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.input_button {
+
+}
+
 .input_button a {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: .3rem .75rem;
     text-decoration: none;
     font-size: 0.9rem;
-    height: 48px;
     width: 120px;
-    background: #833AE0;
+    background: gray;
     line-height: 1.5;
     margin-left: 35px;
     color: white;

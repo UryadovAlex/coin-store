@@ -3,6 +3,11 @@
     margin: 0 auto;
 }
 
+.buttons img {
+    width: 20px;
+    height: 20px;
+}
+
 .item {
     border: 1px solid #ced4da;
     border-radius: 3px;
@@ -16,8 +21,7 @@
 }
 
 .button {
-    width: 100px;
-    margin-left: 10px;
+    margin-left: 20px;
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -38,8 +42,8 @@
 }
 
 .violet {
-    background-color: #833ae0;
-    border-color: #833ae0;
+    background-color: gray;
+    border-color: gray;
 }
 
 .button:hover {

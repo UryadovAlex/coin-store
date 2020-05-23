@@ -2,6 +2,7 @@ import React from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import {connect} from "react-redux";
 import styles from './Header.module.css';
+import "../styles.css"
 
 class Header extends React.Component {
     renderMenu = () => {

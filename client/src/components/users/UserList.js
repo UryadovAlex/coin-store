@@ -3,6 +3,8 @@ import {connect} from "react-redux";
 import {fetchUsers, deleteUser} from "../../actions/users";
 import {Link} from 'react-router-dom';
 import styles from './styles/UserList.module.css';
+import delIcon from '../../images/del.png';
+import edit from '../../images/Editing-Edit-icon.png';
 
 class UserList extends React.Component {
     componentDidMount() {
@@ -13,10 +15,10 @@ class UserList extends React.Component {
         return (
             <div className={styles.buttons}>
                 <Link to={`/users/edit/${user.id}`} className={`${styles.button} ${styles.violet}`}>
-                    Edit
+                    <img src={edit} alt=""/>
                 </Link>
                 <Link to={`/users/delete/${user.id}`} className={`${styles.button} ${styles.red}`}>
-                    Delete
+                    <img src={delIcon} alt=""/>
                 </Link>
             </div>
         );
