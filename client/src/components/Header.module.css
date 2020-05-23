@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #833AE0;
+    height: 50px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    margin-bottom: 3%;
+}
+
+.wrapper .logo {
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.menu_item {
+    margin: 20px;
+    color: white;
+}
+
+.menu_item .name {
+    color: #EEEDE7;
+}
+
+.menu_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu_item a:hover {
+    cursor: pointer;
+    color: #EEEDE7;
+    transition: color .3s ease-in;
+}
+
+.underscore {
+    text-decoration: underline;
+}

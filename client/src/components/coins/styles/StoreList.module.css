@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.wrapper .coin_container img {
+    display: block;
+    width: 180px;
+}
+
+.wrapper .coin_container p {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.wrapper .coin_container a {
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+}

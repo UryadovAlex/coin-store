@@ -1,0 +1,7 @@
+export const CREATE_COIN = 'CREATE_COIN';
+export const FETCH_COIN = 'FETCH_COIN';
+export const FETCH_COINS = 'FETCH_COINS';
+export const UPDATE_COIN = 'UPDATE_COIN';
+export const DELETE_COIN = 'DELETE_COIN';
+export const FETCH_DATA_FOR_FILTER = 'FETCH_DATA_FOR_FILTER';
+export const FETCH_FILTERED_COINS = 'FETCH_FILTERED_COINS';

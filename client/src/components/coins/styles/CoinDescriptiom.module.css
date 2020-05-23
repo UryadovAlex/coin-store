@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+
+}
+
+.container .images img {
+    display: block;
+    width: 200px;
+}
+
+.container .images img:first-child {
+   margin-bottom: 25px;
+}
+
+
+.container .section {
+    background-color: rgba(196, 196, 196, 0.5);
+    box-sizing: border-box;
+    padding: 40px;
+    width: 50%;
+
+}
+
+.container .section p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.container .section p {
+    margin: 25px  0;
+    font-size: .7em;
+}
+
+.container .section table {
+    margin: 10px  0;
+    width: 100%;
+}
+
+.container .section table tr:nth-child(odd) {
+    background-color: white;
+}
+
+.container .section table td{
+    width: 50%;
+    font-size: .7em;
+}
+
+.container .section button{
+    text-align: center;
+    display: block;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .7rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.container .section button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color {
+    background: #833AE0;
+    color: white;
+}

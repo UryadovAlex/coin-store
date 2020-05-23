@@ -1,0 +1,67 @@
+.wrapper {
+    display: flex;
+    padding: 0 40px;
+}
+
+.column {
+    margin-right: 40px;
+}
+
+.filter_field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.filter_field select {
+    width: 374px;
+    height: 48px;
+    font-size: 1.2em;
+    border: 1px solid black;
+}
+
+.filter_field input {
+    width: 155px;
+    height: 48px;
+    font-size: 1.2em;
+    border: 1px solid black;
+}
+
+.filter_field span {
+    margin: 0 15px;
+}
+
+.buttons {
+    margin-top: 59px;
+    /*margin-left: 65px;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button{
+    text-align: center;
+    border: 1px solid #833AE0;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    height: 48px;
+    width: 120px;
+    background: #833AE0;
+    line-height: 1.5;
+    color: white;
+    /*margin-left: 35px;*/
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.buttons button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+

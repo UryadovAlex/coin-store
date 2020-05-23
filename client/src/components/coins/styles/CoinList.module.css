@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: left;
+}
+
+.pages_select {
+    padding: 10px 40px;
+}

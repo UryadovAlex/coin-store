@@ -1,0 +1,72 @@
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #495057;
+    opacity: .9;
+}
+
+.modal {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px;
+    top: 40%;
+    left: 50%;
+    border-radius: 3px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.header {
+    font-size: 1.5em;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+    color: #dc3545;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 30px 0;
+    border-bottom: 1px solid gray;
+    font-size: 1.2em;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.actions button {
+    margin-left: 10px;
+    text-align: center;
+    display: block;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: white;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.actions button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.actions button:last-child {
+    background-color: #dc3545;
+}
+
+.actions button:first-child {
+    background-color: #833ae0;
+}

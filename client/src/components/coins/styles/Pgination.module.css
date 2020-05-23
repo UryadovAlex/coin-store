@@ -1,0 +1,19 @@
+.main {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main li {
+    /*margin: 0 10px;*/
+    border: 1px solid #fff;
+    background-color: #833ae0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.main li p {
+    text-decoration: none;
+    color: white;
+}

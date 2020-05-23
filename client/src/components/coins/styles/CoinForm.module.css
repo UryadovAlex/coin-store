@@ -1,0 +1,119 @@
+.wrapper {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.wrapper h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.wrapper a {
+    text-decoration: none;
+    color: #833AA9;
+}
+
+.form_filed label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form_filed input[type='text'] {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.form_filed select {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.form_filed textarea {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.button {
+    margin: 10px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid #833AE0;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #833AE0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button:hover {
+    background-color: #833AA9;
+    color: #ced4da;
+    cursor: pointer;
+}
+
+.coin_form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.file_field {
+    border-radius: 100%;
+    background-color: #ced4da;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.file_field input:hover {
+    cursor: pointer;
+}
+
+.preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ced4da;
+}
+
+.column {
+    width: 33%;
+    min-width: 470px;
+}
