@@ -14,7 +14,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema bootcamp
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `bootcamp` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
+CREATE SCHEMA IF NOT EXISTS `bootcamp`;
 USE `bootcamp` ;
 
 -- -----------------------------------------------------
@@ -32,8 +32,7 @@ CREATE TABLE IF NOT EXISTS `bootcamp`.`users` (
   UNIQUE INDEX `email` (`email` ASC) VISIBLE)
 ENGINE = InnoDB
 AUTO_INCREMENT = 29
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+DEFAULT CHARACTER SET = utf8mb4;
 
 
 -- -----------------------------------------------------
@@ -76,8 +75,7 @@ CREATE TABLE IF NOT EXISTS `bootcamp`.`coins` (
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 AUTO_INCREMENT = 41
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+DEFAULT CHARACTER SET = utf8mb4;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
