@@ -49,8 +49,8 @@ class CoinDescription extends React.Component {
             return (
                 <div className={styles.container}>
                     <div className={styles.images}>
-                        <img src={`http://coinsstorepro.com/${obverseLink}`} alt=""/>
-                        <img src={`http://coinsstorepro.com/${reverseLink}`} alt=""/>
+                        <img src={`http://coinsstorepro.com/uploads/${obverseLink}`} alt=""/>
+                        <img src={`http://coinsstorepro.com/uploads/${reverseLink}`} alt=""/>
                     </div>
                     <div className={styles.section}>
                         <p>{name}</p>
