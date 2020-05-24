@@ -38,7 +38,7 @@ class Coin extends React.Component {
         return (
             <div className={styles.coin_container}>
                 <div style={{width: "120px"}}>
-                    <img src={`http://localhost:3010/uploads/${obverseLink}`} alt=""/>
+                    <img src={`http://localhost/uploads/${obverseLink}`} alt=""/>
                 </div>
                 <div className={styles.content}>
                     <NavLink to={`/coins/${coinId ? coinId : id}`}>
