@@ -42,6 +42,7 @@ class UserForm extends React.Component {
             <div className={styles.form_filed}>
                 <label>{label}</label>
                 <select {...input} value="m">
+                    <option value="m">Select gender</option>
                     <option value="m">Male</option>
                     <option value="f">Female</option>
                 </select>
