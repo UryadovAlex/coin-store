@@ -33,7 +33,7 @@
 
 .container .section p {
     margin: 25px  0;
-    font-size: .7em;
+    font-size: 1em;
 }
 
 .container .section table {
@@ -47,7 +47,7 @@
 
 .container .section table td{
     width: 50%;
-    font-size: .7em;
+    font-size: 1em;
 }
 
 .container .section button{
@@ -55,7 +55,7 @@
     display: block;
     border: 1px solid transparent;
     padding: .375rem .75rem;
-    font-size: .7rem;
+    font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;

@@ -22,8 +22,8 @@ class Coin extends React.Component {
         const {name, coinId, id, shortDescription, deleteFromCart, hasDelete, qty} = this.props;
         return (
             <React.Fragment>
-                <div className={styles.content}>
-                    <h4>Qty</h4>
+                <div >
+                    <h4 className={styles.qty}>Qty</h4>
                     <p className={styles.qty}>{qty}</p>
                 </div>
                 <div className={styles.button_delete}>

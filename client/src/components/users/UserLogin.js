@@ -22,9 +22,9 @@ class UserLogin extends React.Component{
     }
 
     render() {
+        console.log(this.state.success)
         return (
             <div className={styles.wrapper}>
-                {!this.state.success && <h3 className={styles.red}>Invalid login or password</h3>}
                 <form onSubmit={this.onSubmit}>
                     <div className={styles.form_filed}>
                         <label>Login</label>
@@ -33,6 +33,7 @@ class UserLogin extends React.Component{
                                onChange={this.onInputChange}
                                value={this.state.email}
                         />
+                        {!this.state.success ? <p className={styles.red}>Invalid login or password</p> : ''}
                     </div>
                     <div className={styles.form_filed}>
                         <label>Password</label>

@@ -15,7 +15,13 @@
 
 .coin_container .content {
     margin-left: 30px;
+    font-size: 16px;
+    width: 80%;
+}
+
+.qty{
     font-size: 12px;
+    color: gray;
 }
 
 .coin_container .content a {
